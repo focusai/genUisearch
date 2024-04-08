@@ -11,6 +11,9 @@ import { Section } from '@/components/section'
 import { FollowupPanel } from '@/components/followup-panel'
 import { inquire, researcher, taskManager, querySuggestor } from '@/lib/agents'
 
+  // api details
+
+
 async function submit(formData?: FormData, skip?: boolean) {
   'use server'
 
